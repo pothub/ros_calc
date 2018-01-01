@@ -1,0 +1,5 @@
+<launch>
+  <node name="input" pkg="calc" type="input.py" output="screen"/>
+  <node name="calculation" pkg="calc" type="calculation.py" output="screen"/>
+  <node name="output" pkg="calc" type="output.py" output="screen"/>
+</launch>
